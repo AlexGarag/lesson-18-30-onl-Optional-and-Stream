@@ -1,5 +1,6 @@
 package by.tms.onl30.trainingmanual;
 
+import by.tms.onl30.trainingmanual.task1.classes.Developer;
 import by.tms.onl30.trainingmanual.task1.classes.User;
 import by.tms.onl30.trainingmanual.task1.classes.UserStorage;
 
@@ -42,6 +43,26 @@ public class ExecutorTrainingManual {
 
         Stream<String> stream = lines.stream();
         stream.filter(s -> s.substring(0, 1).equals("A")).forEach(System.out::println);
+
+//        Задача 3:
+//        При помощи стримов из списка, содержащего объекты Developer, вывести только те, id >
+//        10 и name начинается с ‘An'
+        System.out.println();
+        System.out.println("Задача 1");
+
+        List<Developer> developers = new ArrayList<>();
+        developers.add(new Developer(8, "Ab"));
+        developers.add(new Developer(9, "Ak"));
+        developers.add(new Developer(10, "Ab"));
+        developers.add(new Developer(11, "ab"));
+        developers.add(new Developer(12, "An"));
+        developers.add(new Developer(14, "ab"));
+        developers.add(new Developer(15, "An"));
+
+        Stream<Developer> developersStream = developers.stream();
+        developersStream
+                .filter(d -> d.getId() > 10 && d.getName().substring(0, 2).equals("An"))
+                .forEach(System.out::println);
 
     }
 }
