@@ -1,8 +1,8 @@
 package by.tms.onl30.trainingmanual;
 
-import by.tms.onl30.trainingmanual.task1.classes.Developer;
-import by.tms.onl30.trainingmanual.task1.classes.User;
-import by.tms.onl30.trainingmanual.task1.classes.UserStorage;
+import by.tms.onl30.homework.entities.Developer;
+import by.tms.onl30.trainingmanual.task1.entities.User;
+import by.tms.onl30.trainingmanual.task1.entities.UserStorage;
 
 import java.util.ArrayList;
 import java.util.List;

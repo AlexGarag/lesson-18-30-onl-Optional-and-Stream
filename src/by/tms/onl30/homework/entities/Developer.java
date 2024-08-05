@@ -1,4 +1,4 @@
-package by.tms.onl30.trainingmanual.task1.classes;
+package by.tms.onl30.homework.entities;
 
 public class Developer {
     private int id;
