@@ -31,7 +31,7 @@ public class ExecutorTrainingManual {
 //        Задача 2:
 //        При помощи стримов из списка строк вывести только те, которые начинаются с буквы ‘A’
         System.out.println();
-        System.out.println("Задача 1");
+        System.out.println("Задача 2");
 
         List<String> lines = new ArrayList<>();
         lines.add("ABBA");
@@ -48,7 +48,7 @@ public class ExecutorTrainingManual {
 //        При помощи стримов из списка, содержащего объекты Developer, вывести только те, id >
 //        10 и name начинается с ‘An'
         System.out.println();
-        System.out.println("Задача 1");
+        System.out.println("Задача 3");
 
         List<Developer> developers = new ArrayList<>();
         developers.add(new Developer(8, "Ab"));
